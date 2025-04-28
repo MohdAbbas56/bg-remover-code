@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: #f2f2f2;
+}
+
+#dropArea {
+    border: 2px dashed #ff0000;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    font-size: 30px;
+    position: relative;
+    margin: 15px auto;
+    min-height: 300px;
+    display: flex;
+    max-width: 399px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+#dropText {
+    position: relative;
+    z-index: 1;
+}
+
+#dropArea.hover {
+    background: #e0e0e0;
+}
+
+#dropArea img {
+
+    max-width: 100%;
+    max-height: 293px;
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loader {
+    display: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.removeBtn {
+    background-color: #0f70e6;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.resetBtn {
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.downloadBtn {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
